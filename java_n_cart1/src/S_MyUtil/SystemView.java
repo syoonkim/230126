@@ -7,7 +7,11 @@ import S5_Board.BoardContents;
 public class SystemView {
 	
 	public static SystemView instance=new SystemView();
-	
+	public void v0() {
+		System.out.println("======================미니자유게시판======================");
+		System.out.printf("[N]  제목%40s\n","작성자");
+		System.out.println("------------------------------------------------------");
+	}
 	public void v1() {
 		System.out.println("======================미니자유게시판======================");
 		System.out.printf("[N]  제목%40s\n","작성자");
