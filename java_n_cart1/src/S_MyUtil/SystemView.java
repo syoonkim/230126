@@ -42,4 +42,6 @@ public class SystemView {
 		System.out.println("[1]댓글쓰기 [2]댓글삭제 [3]뒤로가기");
 	}
 	
+	/**/
+	
 }
